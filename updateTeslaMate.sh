@@ -12,11 +12,11 @@ PATH_BACKUP=$HOME/TeslaMateBackup
 echo '¿Deseas hacer una copia de seguridad de la base de datos (s/n)? '
 read answer
 
-cd $PATH_COMPOSE
 if [ "$answer" != "${answer#[Ss]}" ] ;then
     $PATH_SCRIPT/backupTeslaMate.sh
 fi
 
+cd $PATH_COMPOSE
 echo -e '\n---- Comenzando la actualización ----\n'
 docker-compose pull
 echo -e '\n---- Finalizada la actualización ----\n'
