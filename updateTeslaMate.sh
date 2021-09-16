@@ -4,10 +4,10 @@
 #
 # Author: Carlos Cuezva
 # Created: 18/04/2021
+# Last update: 16/09/2021
 
 PATH_SCRIPT=`pwd`
 PATH_COMPOSE=$HOME
-PATH_BACKUP=$HOME/TeslaMateBackup
 
 echo '¿Deseas hacer una copia de seguridad de la base de datos (s/n)? '
 read answer
