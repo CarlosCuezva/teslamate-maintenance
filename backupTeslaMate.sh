@@ -4,7 +4,7 @@
 #
 # Author: Carlos Cuezva
 # Created: 23/04/2021
-# Last update: 16/09/2021
+# Last update: 22/09/2021
 
 PATH_COMPOSE=$HOME
 PATH_BACKUP=$HOME/TeslaMateBackup
