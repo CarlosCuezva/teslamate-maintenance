@@ -4,6 +4,7 @@
 #
 # Author: Carlos Cuezva
 # Created: 23/04/2021
+# Last update: 16/09/2021
 
 PATH_COMPOSE=$HOME
 PATH_BACKUP=$HOME/TeslaMateBackup
@@ -19,5 +20,8 @@ gzip -9 -f $FILENAME
 
 FILESIZE=`du -h "$FILENAME.gz" | cut -f1`
 echo -e "\nLa copia de seguridad tiene un tamaño de $FILESIZE\n"
+
+echo -e "\nQuitando copias de seguridad con más de 15 días de antigüedad\n"
+find $PATH_BACKUP -type f -name '*_teslamate.bck.gz' -mtime +15 | xargs rm
 
 echo -e '\n---- Finalizado el backup ----\n'
