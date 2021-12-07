@@ -1,11 +1,13 @@
-# TeslaMate
+# Teslamate maintenance
 
-Scripts para automatizar el mantenimiento de TeslaMate
+Set of scripts to automate the maintenance of TeslaMate
 
-### Scripts disponibles
+### Available scripts
 
-- Crear backup
-- Restaurar backup
-- Actualizar la versión de TeslaMate
+- Create daily backup
+- Restore previous backup
+- Update TeslaMate to the latest version available
 
-Videotutorial en https://www.youtube.com/watch?v=taOtmhADvk4
+### Video guide
+
+You can see my video tutorial on [YouTube](https://www.youtube.com/watch?v=taOtmhADvk4) (in Spanish or subtitles in English)
